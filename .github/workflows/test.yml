@@ -23,3 +23,6 @@ jobs:
       - name: Test with unittest
         run: |
           python -m unittest
+      - name: Build
+        run: |
+          python setup.py sdist
